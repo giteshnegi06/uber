@@ -13,106 +13,132 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="font-(family-name:UberMove, UberMoveText, system-ui, Helvetica Neue, Helvetica, Arial, sans-serif)">
+<body class="font-Uber-Move">
     <header>
-        <nav class=" w-auto pt-3 pb-3 bg-black text-white items-center">
-            <div class="flex mx-[248px] px-16 justify-between h-10 ">
-                <div class="flex items-center ">
-                    <a href="#" class="text-2xl h-[40px] w-[50px] font-normal ">Uber</a>
+        <nav class="pt-3 pb-3 bg-black  items-center">
+            <div class="text-white items-center">
+                <div class="flex h-10 px-6 justify-between items-center md:w[768px] xl:px-16 xl:mx-4">
+                    <a href="#" class="text-[20px] font-normal tracking-tighter text-center xl:text-2xl">Uber</a>
 
-                    <ul class="flex mx-6 w-[940px] items-center text-[14px]">
+                    <ul class="hidden xl:flex mx-6 w-[910.4px] items-center text-[14px]">
                         <li><a href="#" class="py-2.5 px-3 h-[36px]">Ride</a></li>
-                        <li><a href="#"><button class="py-2.5 px-3 h-[38px] flex items-center">Earn <div
-                                        class="h-[18px] w-[18px]"><i class="fa-solid fa-angle-down h-1.5 w-[9px]"></i>
-                                    </div></button></a></li>
+                        <li><a href="#"><button class="py-2.5 px-3 h-[38px] flex items-center">Drive</button></a></li>
                         <li><a href="#" class="py-2.5 px-3 h-[36px]">Business</a></li>
                         <li><a href="#"><button class="py-2.5 px-3 flex h-[38px] items-center">About <div><i
                                             class="fa-solid fa-angle-down"></i></div></button></a></li>
                     </ul>
 
-                    <ul class="flex w-[270px] text-[14px]">
-                        <li class="pr-1"><button class="flex py-2.5 px-3 ">
+                    <ul class="flex items-center justify-end w-[181.5px] xl:w-[270.8px]">
+                        <li class=" hidden xl:flex pr-1"><button class="flex py-2.5 px-3 text-sm">
                                 <a href="#">
                                     <i class="fa-solid fa-globe"></i>
 
                                     EN</a>
                             </button></li>
-                        <li class="pr-1"><button class="py-2.5 px-3 ">
+                        <li class="hidden xl:flex pr-1 "><button class="py-2.5 px-3 text-sm">
                                 <a href="#">Help</a>
                             </button></li>
-                        <li class="pr-1"><button class="py-2.5 px-3 "><a href="#">
-                                    Log in
-                                </a></button></li>
-                        <li class="items-center pr-1 "><button class="py-2.5 px-3 bg-white text-black rounded-4xl "><a
-                                    href="#" class="h-[16px] w-[49px]">
-                                    Sign up
-                                </a></button></li>
+                        <li class="pr-1"><a href="#" class="py-2.5 px-3 text-sm">
+                                Log in
+                            </a></li>
+                        <li class="items-center pr-1 "><a href="#"
+                                class="w-[73.6px] py-2.5 px-3 bg-white text-black text-sm rounded-4xl ">
+                                Sign up
+                            </a></li>
+                        <li class="xl:hidden">
+                            <button class="flex items-center p-[10px] pr-0"><svg width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none">
+                                    <path d="M2 6h20v3H2V6Z" fill="currentColor"></path>,<path d="M2 15h20v3H2v-3Z"
+                                        fill="currentColor"></path>
+                                </svg></button>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <nav class="px-16 py-3">
-            <div class="mx-[248px] h-10 items-center flex justify-between">
-                <ul class="h-[40px] w-[49.2px] items-center">
+        <nav class="px-6 py-3 xl:px-16">
+            <div class=" h-10 items-center flex justify-between xl:mx-4">
+                <ul class="flex h-[40px] w-[204px] items-center md:w-[540px] xl:w-fit">
                     <li>
-                        <div class="h-[52px] w-[49.2px]"><button class="py-2.5 "><span
-                                    class="text-2xl h-[32px] w-[49px] font-bold">Ride</span></button></div>
+                        <div><button class="py-2.5 flex "><span class="text-2xl font-bold">Ride</span>
+                                <div class="xl:hidden ml-2 flex items-center">
+                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none">
+                                        <title>Chevron down</title>
+                                        <path d="M22 6.9v3.8l-10 7.7-10-7.7V6.9l10 7.7 10-7.7Z" fill="currentColor">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </button></div>
                     </li>
                 </ul>
-                <div class="h-10 flex ">
-                    <ul class="flex items-center text-[14px] text-[#6B6B6B] ">
-                        <li class="pl-6"><a href="#">Request a ride</a></li>
-                        <li class="pl-6"><a href="#">Reserve a ride</a></li>
-                        <li class="pl-6"><a href="#">See prices</a></li>
-                        <li class="pl-6"><a href="#">Explore ride option</a></li>
-                        <li class="pl-6"><a href="#">Airport ride</a></li>
-                    </ul>
-                </div>
+                <ul class="hidden h-10 xl:flex items-center text-[14px] text-[#6B6B6B] ">
+                    <li class="pl-6"><a href="#">Request a ride</a></li>
+                    <li class="pl-6"><a href="#">Reserve a ride</a></li>
+                    <li class="pl-6"><a href="#">See prices</a></li>
+                    <li class="pl-6"><a href="#">Explore ride option</a></li>
+                    <li class="pl-6"><a href="#">Airport ride</a></li>
+                </ul>
 
             </div>
         </nav>
     </header>
-    <main class="font-[UberMoveText, system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;]">
-        <div class="mx-[312px] mt-8">
-            <div class="px-16 pb-16 flex justify-between items-center">
-                <div class="h-[424px] w-[459px]">
-                    <div class="flex flex-col justify-between h-[224px]">
-                        <div>
-                            <h1 class="text-[52px] font-bold leading-16">Request a ride for now or later</h1>
+    <main>
+        <div class="pt-5">
+            <div class="px-6 pb-10 flex items-center ">
+                <div class="flex flex-col h-[396px] gap-2.5 lg:gap-0 md:h-[392px] lg:h-[340px]">
+                    <div class="flex flex-col justify-between md:w-[598.3px]">
+                        <div class="mb-5">
+                            <h1 class="text-4xl font-black text-balance leading-11 md:text-[44px]">Request a ride for now or later</h1>
                         </div>
-                        <div class="text-[14px] flex w-[360px] py-2">
+                        <div class="text-[14px] flex py-2 md:w-[336px]">
                             <span class="mt-0.5 mr-2"> <i class="fa-solid fa-tag text-[#25A154]"></i></span>
-                            <span class=""> <span class="font-medium">Up to 50% off your first 5 Uber rides.</span> T&Cs
+                            <span class="leading-6"> <strong>Up to 50% off your first 5 Uber rides.</strong> T&Cs
                                 apply.* *Valid within 15 days of signup.</span>
                         </div>
                     </div>
-                    <div class="mt-[8px] h-[184px] flex flex-col justify-between">
-                        <div
-                            class="flex border-gray-600 w-[396px] h-[48px] items-center bg-[#F3F3F3] rounded-[8px] justify-between">
-                            <div class="absolute flex justify-center align-middle w-10 h-12 items-center"><i
-                                    class="fa-solid fa-circle-dot text-[8.3px]"></i></div>
-                            <div>
-                                <div class="py-2.5 pl-9 w-[312px] h-11">
-                                    <input type="text" placeholder="Enter loaction"
-                                        class="border-0 w-[312px] focus:outline-none text-[16px]">
+                    <div class="h-[182px] mt-2 flex flex-col justify-between ">
+                        <div class="h-[108px] flex flex-col justify-between">
+                            <div
+                                class="flex border-gray-600 w-[272px] h-[48px] items-center bg-[#F3F3F3] rounded-[8px] justify-between md:w-[396px]">
+                                <div class="absolute flex justify-center align-middle w-10 h-12 items-center"><svg
+                                        width="20" height="20" viewBox="0 0 24 24" fill="none" data-baseweb="icon">
+                                        <title>search</title>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm5-2a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"
+                                            fill="currentColor"></path>
+                                    </svg></div>
+                                <div>
+                                    <div class="py-2.5 pl-9 w-[224px] h-11 md:w-[348px]">
+                                        <input type="text" placeholder="Enter loaction"
+                                            class="border-0 w-[312px] focus:outline-none text-[16px]">
+                                    </div>
+                                </div>
+                                <div class="h-11 items-center ml-2 pr-3 w-11 flex justify-center align-middle"><a
+                                        href="#" class="items-center h-6 w-6"><svg width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" class="pe-location-fetch css-bOZeEP"
+                                            role="button" tabindex="0">
+                                            <title>Navigate right up</title>
+                                            <path d="M10.5 13.5.5 11 21 3l-8 20.5-2.5-10Z" fill="currentColor"></path>
+                                        </svg></a>
                                 </div>
                             </div>
-                            <div class="h-11 items-center ml-2 pr-3 w-11 flex justify-center align-middle"><a href="#"
-                                    class="items-center h-6 w-6"><i class="fa-solid fa-location-arrow text-2xl"></i></a>
-                            </div>
-                        </div>
-                        <div
-                            class="flex border-gray-600 w-[396px] h-[48px] items-center bg-[#F3F3F3] rounded-[8px] justify-between">
-                            <div class="absolute flex justify-center align-middle w-10 h-12 items-center"><i
-                                    class="fa-regular fa-circle-dot text-[8.3px]"></i>
-                            </div>
-                            <div>
-                                <div class="py-2.5 pl-9 w-[370px] h-11 ">
-                                    <input type="text" placeholder="Enter destination"
-                                        class="border-0 w-[340px] focus:outline-none text-[16px]">
+                            <div
+                                class="flex border-gray-600 w-[272px] h-[48px] items-center bg-[#F3F3F3] rounded-[8px] justify-between md:w-[396px]">
+                                <div class="absolute flex justify-center align-middle w-10 h-12 items-center"><svg
+                                        width="20" height="20" viewBox="0 0 24 24" fill="none" data-baseweb="icon">
+                                        <title>search</title>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M14 10h-4v4h4v-4ZM7 7v10h10V7H7Z" fill="currentColor"></path>
+                                    </svg>
                                 </div>
-                            </div>
+                                <div>
+                                    <div class="py-2.5 pl-9 w-[256px] h-11 md:w-[380px]">
+                                        <input type="text" placeholder="Enter destination"
+                                            class="border-0 w-[220px] focus:outline-none text-[16px] md:w-[344px]">
+                                    </div>
+                                </div>
 
+                            </div>
                         </div>
                         <div>
                             <div>
@@ -120,7 +146,7 @@
                                     <div class="mr-6 mt-3"><a href="#"
                                             class=" py-3.5 px-[25px] bg-black text-white rounded-[8px] font-medium h-12 hover:bg-gray-900">See
                                             price</a></div>
-                                    <div class=" mt-3"><a href="#"
+                                    <div class="hidden xl:flex mt-3"><a href="#"
                                             class=" py-3.5 px-[25px] bg-[#F3F3F3] font-medium rounded-[8px] hover:bg-[#e6e2e28e]">Schedule
                                             for later</a></div>
                                 </div>
@@ -129,12 +155,12 @@
                     </div>
                 </div>
                 <img src="./photo/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy80MmEyOTE0Ny1lMDQzLTQyZjktODU0NC1lY2ZmZmUwNTMyZTkucG5n.webp"
-                    alt="">
+                    alt="" class="hidden xl:flex">
             </div>
 
         </div>
 
-        <div>
+        <!-- <div>  
             <div class="mx-[312px]">
                 <div class="px-16 w-[1152px] h-[429px.8]">
                     <div>
@@ -577,9 +603,9 @@
                 <div class="p-16 text-[14px] font-normal">Certain requirements and features vary by country, region, and
                     city.</div>
             </div>
-        </div>
+        </div> -->
     </main>
-    <footer>
+    <!-- <footer>
         <div class="bg-black text-white">
             <div class="flex justify-center">
                 <div class="w-[1280px] p-16">
@@ -682,7 +708,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>

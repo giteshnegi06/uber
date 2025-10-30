@@ -1,1 +1,15 @@
+@font-face {
+    font-family: "Uber Move";
+    /* src: url(Font/UberMoveTextRegular.otf,);
+    src: url(Font/UberMoveTextBold.otf); */
+    src: url(Font/UberMoveTextMedium.otf);
+    /* src: url(Font/UberMoveTextLight.otf) */
+}
+
+
 @import "tailwindcss";
+
+
+@theme{
+    --font-Uber-Move:"Uber Move"
+}
